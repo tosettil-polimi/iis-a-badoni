@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Generale">
+        <ListPreference
+            android:title="Numero di circolari"
+            android:summary="Numero di circolari visualizzate nella lista"
+            android:key="numCircolari"
+            android:defaultValue="100cir"
+            android:entries="@array/listaNum"
+            android:entryValues="@array/valoriNum" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Notifiche">
+        <CheckBoxPreference
+            android:id="@+id/checkboxPref"
+            android:title="Mostra notifiche"
+            android:defaultValue="true"
+            android:summary="Abilita le notifiche per le nuove circolari"
+            android:key="notifiche" />
+        <ListPreference
+            android:title="Categoria"
+            android:summary="Seleziona la categoria a cui appartieni"
+            android:key="categoria"
+            android:defaultValue="studenti"
+            android:entries="@array/listaCategorie"
+            android:entryValues="@array/valoriCategorie" />
+        <ListPreference
+            android:title="Frequenza di sincronizzazione"
+            android:summary="Frequenza di controllo della presenza di nuove circolari"
+            android:key="syncTime"
+            android:defaultValue="15min"
+            android:entries="@array/listaSync"
+            android:entryValues="@array/valoriSync" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Orario" >
+        <ListPreference
+            android:title="Classe preferita"
+            android:summary="Seleziona la classe che vuoi in cima alla lista degli orari"
+            android:key="classePref"
+            android:defaultValue="1AEE"
+            android:entries="@array/nomeclassi"
+            android:entryValues="@array/nomeclassi" />
+
+        <ListPreference
+            android:title="Professore preferito"
+            android:summary="Seleziona il professore che vuoi in cima alla lista degli orari"
+            android:key="profPref"
+            android:defaultValue="Achler"
+            android:entries="@array/nomedocenti"
+            android:entryValues="@array/nomedocenti" />
+    </PreferenceCategory>
+</PreferenceScreen>

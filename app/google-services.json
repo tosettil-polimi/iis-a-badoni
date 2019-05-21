@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "372533136988",
+    "firebase_url": "https://iis-badoni.firebaseio.com",
+    "project_id": "iis-badoni",
+    "storage_bucket": "iis-badoni.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372533136988:android:76fb3aced63fd7f2",
+        "android_client_info": {
+          "package_name": "it.gov.iisbadoni.iisabadoni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372533136988-qjc2t467n7qnks8oh460m9k0m66q1uj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA1GOcUP95qjNLZ7j5ssO-rEf3shFrfNI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

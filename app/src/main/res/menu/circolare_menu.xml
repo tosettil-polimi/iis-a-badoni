@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/attach"
+        android:icon="@drawable/ic_attach"
+        app:showAsAction="always"
+        android:title="Allegato"
+        android:visible="false" />
+    <item android:id="@+id/share"
+        android:icon="@drawable/share_variant"
+        app:showAsAction="always"
+        android:title="Condividi" />
+    <item android:id="@+id/link_circolare"
+        app:showAsAction="never"
+        android:title="Link circolare" />
+</menu>

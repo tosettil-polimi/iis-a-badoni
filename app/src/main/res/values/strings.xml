@@ -1,0 +1,765 @@
+<resources>
+    <string name="prova">Prova</string>
+    <string name="app_name">IIS A. Badoni</string>
+    <string name="search_title">Cerca</string>
+    <string name="search_hint">Cerca..</string>
+    <string name="settings">Settings</string>
+    <string name="impostazioni">Settings</string>
+    <string name="title_activity_circolare">Circolare</string>
+    <string name="title_informazioni">Istituto di Istruzione Superiore \n\'A. Badoni\'</string>
+    <string name="logo_desc">logo_badoni</string>
+    <string name="developerstitle">Sviluppata da:</string>
+    <string name="developers">Tosetti Lorenzo\nPiazza Giorgio</string>
+    <string name="developerstitle2">In collaborazione con:</string>
+    <string name="collaborators">Ravasio Andrea\nRusconi Jordi</string>
+    <string name="copyright">© 2016 I.I.S. A. Badoni</string>
+    <string name="rights">All rights reserved</string>
+    <string name="drawer_title">lcis00900x@istruzione.it</string>
+    <string name="drawer_student">Studenti</string>
+    <string name="drawer_genitori">Genitori</string>
+    <string name="drawer_docenti">Docenti</string>
+    <string name="drawer_personaleata">Personale ATA</string>
+    <string name="drawer_settings">Impostazioni</string>
+    <string name="drawer_info">Informazioni</string>
+    <string name="drawer_sito">Sito Badoni</string>
+    <string name="drawer_registro">Registro elettronico</string>
+    <string name="drawer_orario">Orario Lezioni</string>
+    <string name="linkElettronico">linkElettronico</string>
+    <string name="linkSito">linkSito</string>
+    <string name="navigation_drawer_open">Apri navigation drawer</string>
+    <string name="navigation_drawer_close">Chiudi navigation drawer</string>
+    <array name="listaCategorie">
+        <item>
+            Studenti
+        </item>
+        <item>
+            Genitori
+        </item>
+        <item>
+            Docenti
+        </item>
+        <item>
+            Personale ATA
+        </item>
+    </array>
+
+    <array name="valoriCategorie">
+        <item>
+            studenti
+        </item>
+        <item>
+            genitori
+        </item>
+        <item>
+            docenti
+        </item>
+        <item>
+            personale ATA
+        </item>
+    </array>
+
+    <array name="listaSync">
+        <item>
+            Ogni 15 minuti
+        </item>
+        <item>
+            Ogni 30 minuti
+        </item>
+        <item>
+            Ogni ora
+        </item>
+        <item>
+            Ogni due ore
+        </item>
+    </array>
+
+    <array name="valoriSync">
+        <item>15min</item>
+        <item>30min</item>
+        <item>60min</item>
+        <item>120min</item>
+    </array>
+
+    <array name="listaNum">
+        <item>
+            100 circolari
+        </item>
+        <item>
+            50 circolari
+        </item>
+        <item>
+            30 circolari
+        </item>
+    </array>
+
+    <array name="valoriNum">
+        <item>100cir</item>
+        <item>50cir</item>
+        <item>30cir</item>
+    </array>
+    <string name="title_activity_settings">SettingsProva</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_orario_prova">OrarioProva</string>
+
+    <array name="nomedocenti">
+        <item>
+            Achler
+        </item>
+        <item>
+            Addivinola
+        </item>
+        <item>
+            Albini
+        </item>
+        <item>
+            Aldeghi
+        </item>
+        <item>
+            Ambrosio
+        </item>
+        <item>
+            Arrigoni
+        </item>
+        <item>
+            Aruanno
+        </item>
+        <item>
+            Ascoli
+        </item>
+        <item>
+            Avogadri
+        </item>
+        <item>
+            Azzolin
+        </item>
+        <item>
+            Azzollini
+        </item>
+        <item>
+            Bacchini
+        </item>
+        <item>
+            Ballotta
+        </item>
+        <item>
+            Bartesaghi
+        </item>
+        <item>
+            Beccaria
+        </item>
+        <item>
+            Bellafiore
+        </item>
+        <item>
+            Bevacqua
+        </item>
+        <item>
+            Biava
+        </item>
+        <item>
+            Binda
+        </item>
+        <item>
+            Boghi
+        </item>
+        <item>
+            Boldrini
+        </item>
+        <item>
+            Bonacina
+        </item>
+        <item>
+            Bove
+        </item>
+        <item>
+            Bufano
+        </item>
+        <item>
+            Calcagnile
+        </item>
+        <item>
+            Capobianco
+        </item>
+        <item>
+            Carnevale
+        </item>
+        <item>
+            Carsana
+        </item>
+        <item>
+            Cavallaro
+        </item>
+        <item>
+            Chiavatti
+        </item>
+        <item>
+            Chillè
+        </item>
+        <item>
+            Cocomazzi
+        </item>
+        <item>
+            Colombo
+        </item>
+        <item>
+            Colombo Caterina
+        </item>
+        <item>
+            Comi
+        </item>
+        <item>
+            Cosentino
+        </item>
+        <item>
+            Crippa
+        </item>
+        <item>
+            De Pierri
+        </item>
+        <item>
+            De Pietro
+        </item>
+        <item>
+            Della Ferrera
+        </item>
+        <item>
+            DeLuca L.a
+        </item>
+        <item>
+            DeLuca L.i
+        </item>
+        <item>
+            Di Iorio
+        </item>
+        <item>
+            Di Liberto
+        </item>
+        <item>
+            Dolfin
+        </item>
+        <item>
+            Dotti
+        </item>
+        <item>
+            Drei
+        </item>
+        <item>
+            Evolo
+        </item>
+        <item>
+            Feliciello
+        </item>
+        <item>
+            Ferrara
+        </item>
+        <item>
+            Filipazzi
+        </item>
+        <item>
+            Francescone
+        </item>
+        <item>
+            Fumagalli L
+        </item>
+        <item>
+            Fumagalli M
+        </item>
+        <item>
+            Fusi
+        </item>
+        <item>
+            Galasso
+        </item>
+        <item>
+            Galbusera
+        </item>
+        <item>
+            Galli
+        </item>
+        <item>
+            Ghezzi
+        </item>
+        <item>
+            Giambagli
+        </item>
+        <item>
+            Giorgi
+        </item>
+        <item>
+            Giulivi
+        </item>
+        <item>
+            Gondoni
+        </item>
+        <item>
+            Goretti
+        </item>
+        <item>
+            Invernizzi
+        </item>
+        <item>
+            Ioime
+        </item>
+        <item>
+            Kabamuanyshi
+        </item>
+        <item>
+            Laino
+        </item>
+        <item>
+            Landi
+        </item>
+        <item>
+            Lanfranchi
+        </item>
+        <item>
+            Lanza
+        </item>
+        <item>
+            Li Calzi
+        </item>
+        <item>
+            Longhi
+        </item>
+        <item>
+            Lozza
+        </item>
+        <item>
+            Maggi
+        </item>
+        <item>
+            Maggioni
+        </item>
+        <item>
+            Magni
+        </item>
+        <item>
+            Magni Em.
+        </item>
+        <item>
+            Malusa
+        </item>
+        <item>
+            Manfrè
+        </item>
+        <item>
+            Manzi A
+        </item>
+        <item>
+            Manzi P
+        </item>
+        <item>
+            Marino
+        </item>
+        <item>
+            Marrazzo
+        </item>
+        <item>
+            Marrone
+        </item>
+        <item>
+            Mascellani
+        </item>
+        <item>
+            Maselli
+        </item>
+        <item>
+            Mauri
+        </item>
+        <item>
+            Mazza
+        </item>
+        <item>
+            Mazzolari
+        </item>
+        <item>
+            Megna
+        </item>
+        <item>
+            Milioti
+        </item>
+        <item>
+            Minoretti
+        </item>
+        <item>
+            Molli
+        </item>
+        <item>
+            Montanaro
+        </item>
+        <item>
+            Morabito
+        </item>
+        <item>
+            Muccino
+        </item>
+        <item>
+            Musoni
+        </item>
+        <item>
+            Nardone
+        </item>
+        <item>
+            Nese
+        </item>
+        <item>
+            Nogara
+        </item>
+        <item>
+            Orecchio
+        </item>
+        <item>
+            Padelli
+        </item>
+        <item>
+            Paparo
+        </item>
+        <item>
+            Parente
+        </item>
+        <item>
+            Pellegatta
+        </item>
+        <item>
+            Peretti
+        </item>
+        <item>
+            Pescantini
+        </item>
+        <item>
+            Polti
+        </item>
+        <item>
+            Polvara
+        </item>
+        <item>
+            Rafaraci
+        </item>
+        <item>
+            Recalcati
+        </item>
+        <item>
+            Redaelli Ga
+        </item>
+        <item>
+            Redaelli GF
+        </item>
+        <item>
+            Regazzoni
+        </item>
+        <item>
+            Renda
+        </item>
+        <item>
+            Rigamonti
+        </item>
+        <item>
+            Ripamonti Elena
+        </item>
+        <item>
+            Riva
+        </item>
+        <item>
+            Rivoir
+        </item>
+        <item>
+            Rombolà
+        </item>
+        <item>
+            Rusconi
+        </item>
+        <item>
+            Sala
+        </item>
+        <item>
+            Salicetti
+        </item>
+        <item>
+            Sangalli
+        </item>
+        <item>
+            Scurria
+        </item>
+        <item>
+            Sestini
+        </item>
+        <item>
+            Soccio
+        </item>
+        <item>
+            Spataro
+        </item>
+        <item>
+            Strizzi
+        </item>
+        <item>
+            Tarfani
+        </item>
+        <item>
+            Telera
+        </item>
+        <item>
+            Tocchetti
+        </item>
+        <item>
+            Uricchio
+        </item>
+        <item>
+            Valenti
+        </item>
+        <item>
+            Valsecchi
+        </item>
+        <item>
+            Vanoli
+        </item>
+        <item>
+            Vassena
+        </item>
+        <item>
+            Viganò
+        </item>
+        <item>
+            Visconti
+        </item>
+        <item>
+            Viscosi
+        </item>
+    </array>
+    <array name="nomeclassi">
+        <item>
+            1AEE
+        </item>
+        <item>
+            1AIT
+        </item>
+        <item>
+            1ALS
+        </item>
+        <item>
+            1AMM
+        </item>
+        <item>
+            1BEE
+        </item>
+        <item>
+            1BIT
+        </item>
+        <item>
+            1BLS
+        </item>
+        <item>
+            1BMM
+        </item>
+        <item>
+            1CIT
+        </item>
+        <item>
+            1CMM
+        </item>
+        <item>
+            1DIT
+        </item>
+        <item>
+            1DMM
+        </item>
+        <item>
+            1EIT
+        </item>
+        <item>
+            1EMM
+        </item>
+        <item>
+            2AEE
+        </item>
+        <item>
+            2AIT
+        </item>
+        <item>
+            2ALS
+        </item>
+        <item>
+            2AMM
+        </item>
+        <item>
+            2BEE
+        </item>
+        <item>
+            2BIT
+        </item>
+        <item>
+            2BLS
+        </item>
+        <item>
+            2BMM
+        </item>
+        <item>
+            2CIT
+        </item>
+        <item>
+            2CMM
+        </item>
+        <item>
+            2DIT
+        </item>
+        <item>
+            2DMM
+        </item>
+        <item>
+            2EMM
+        </item>
+        <item>
+            3AAT
+        </item>
+        <item>
+            3AI
+        </item>
+        <item>
+            3ALS
+        </item>
+        <item>
+            3AM
+        </item>
+        <item>
+            3BE
+        </item>
+        <item>
+            3Ben
+        </item>
+        <item>
+            3BI
+        </item>
+        <item>
+            3BLS
+        </item>
+        <item>
+            3Bm
+        </item>
+        <item>
+            3CET
+        </item>
+        <item>
+            3CM
+        </item>
+        <item>
+            3CTL
+        </item>
+        <item>
+            4Aa
+        </item>
+        <item>
+            4Ae
+        </item>
+        <item>
+            4AI
+        </item>
+        <item>
+            4ALS
+        </item>
+        <item>
+            4AM
+        </item>
+        <item>
+            4BE
+        </item>
+        <item>
+            4BI
+        </item>
+        <item>
+            4BLS
+        </item>
+        <item>
+            4BM
+        </item>
+        <item>
+            4CM
+        </item>
+        <item>
+            4CTL
+        </item>
+        <item>
+            5AAT
+        </item>
+        <item>
+            5AI
+        </item>
+        <item>
+            5ALS
+        </item>
+        <item>
+            5AM
+        </item>
+        <item>
+            5ATL
+        </item>
+        <item>
+            5BE
+        </item>
+        <item>
+            5BEN
+        </item>
+        <item>
+            5BI
+        </item>
+        <item>
+            5CM
+        </item>
+    </array>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/blocco1">
+        <item
+            android:id="@+id/nav_studenti"
+            android:icon="@drawable/ic_studenti"
+            android:checked="true"
+            android:title="@string/drawer_student" />
+
+        <item
+            android:id="@+id/nav_genitori"
+            android:icon="@drawable/ic_genitori"
+            android:title="@string/drawer_genitori" />
+
+        <item
+            android:id="@+id/nav_docenti"
+            android:icon="@drawable/ic_docenti"
+            android:title="@string/drawer_docenti" />
+
+        <item
+            android:id="@+id/nav_ata"
+            android:icon="@drawable/ic_personaleata"
+            android:title="@string/drawer_personaleata" />
+    </group>
+
+    <group
+        android:checkableBehavior="none"
+        android:id="@+id/blocco2">
+        <item
+            android:icon="@drawable/ic_orario"
+            android:onClick="orario"
+            android:title="@string/drawer_orario" />
+        <item
+            android:icon="@drawable/ic_registro"
+            android:onClick="registroElettronico"
+            android:title="@string/drawer_registro" />
+        <item
+            android:icon="@drawable/ic_sito"
+            android:onClick="sito"
+            android:title="@string/drawer_sito" />
+    </group>
+
+    <group
+        android:checkableBehavior="none"
+        android:id="@+id/blocco3">
+        <item
+            android:icon="@drawable/ic_settings"
+            android:onClick="impostazioni"
+            android:title="@string/drawer_settings" />
+
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_info"
+            android:onClick="informazioni"
+            android:title="@string/drawer_info" />
+    </group>
+
+
+</menu>

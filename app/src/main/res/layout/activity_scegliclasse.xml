@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="it.gov.iisbadoni.iisabadoni.ScegliClasse">
+
+    <TextView
+        android:id="@+id/titleSelectClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleziona quello che vuoi visualizzare"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="#212121"
+        android:fontFamily="sans-serif" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/titleSelectClass"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radioButtClasse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="Classe"
+            android:fontFamily="sans-serif-light"
+            android:buttonTint="#7986CB" />
+
+        <RadioButton
+            android:id="@+id/radioButtProf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="Professore"
+            android:fontFamily="sans-serif-light"
+            android:buttonTint="#7986CB" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/titleSpinnerClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroupClass"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="#212121"
+        android:fontFamily="sans-serif" />
+
+    <Spinner
+        android:id="@+id/spinnerClassi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleSpinnerClass"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerClassi"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:text="Visualizza orario"
+        android:fontFamily="sans-serif"
+        android:onClick="apriOrario"/>
+</RelativeLayout>
